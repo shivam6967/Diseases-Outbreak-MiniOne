@@ -1,0 +1,57 @@
+.details table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  text-align: center;
+}
+.details table thead td {
+  font-weight: 600;
+}
+.details .recentOrders table tr {
+  color: var(--black1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.details .recentOrders table tr:last-child {
+  border-bottom: none;
+}
+
+td {
+  font-size: 18px;
+}
+
+th {
+  background-color: rgb(32, 4, 35);
+  color: white;
+  padding: 6px;
+  font-size: 20px;
+  border-radius: 8px 8px;
+  box-shadow: 5px 5px 5px rgb(13, 0, 27);
+}
+.details .recentOrders table tr:hover {
+  background-color: rgb(57, 0, 104);
+  color: black;
+  cursor: pointer;
+}
+.details .recentOrders table tr td {
+  padding: 10px;
+  color: white;
+  box-shadow: 5px 5px 5px rgb(0, 0, 22);
+}
+.details .recentOrders table tr td:last-child {
+  text-align: center;
+}
+.details .recentOrders table tr td:nth-child(2) {
+  text-align: center;
+}
+.details .recentOrders table tr td:nth-child(3) {
+  text-align: center;
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 53);
+  width: 350px;
+  border-radius: 10px;
+}

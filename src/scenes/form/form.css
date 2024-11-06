@@ -1,0 +1,14 @@
+.data-one {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.data-one p {
+  font-size: 20px;
+}
+
+.data-one input {
+  padding: 15px;
+  width: 50px;
+}

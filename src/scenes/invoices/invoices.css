@@ -1,0 +1,89 @@
+.medical-shortage-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(11, 0, 26);
+  font-size: 22px;
+  padding: 5px;
+}
+
+.cityName {
+  background-color: rgb(166, 175, 188);
+  font-size: 20px;
+  display: flex;
+  padding: 4px;
+  color: rgb(0, 0, 43);
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.location-of-city {
+  background-color: rgb(56, 0, 0);
+  color: white;
+  padding: 1px;
+  border-radius: 10px;
+  margin-left: 5px;
+  width: 87px;
+  text-align: center;
+}
+
+.medical-body-name-heading {
+  background-color: rgb(3, 3, 93);
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 5px 5px 10px black;
+  width: 500px;
+  margin-left: 370px;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.all-the-tables table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.all-the-tables td {
+  font-size: 20px;
+}
+
+.all-the-tables th {
+  background-color: rgb(55, 3, 76);
+  color: white;
+  padding: 11px;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(23, 2, 2);
+}
+
+.all-the-tables table tr td {
+  padding: 10px;
+  color: white;
+  box-shadow: 5px 5px 5px rgb(5, 1, 27);
+}
+
+.send-data-btn {
+  background-color: rgb(154, 20, 20);
+  padding: 8px;
+  font-size: 13px;
+  border: none;
+  color: whitesmoke;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.shortage {
+  background-color: rgba(248, 3, 3, 0.304);
+  border-radius: 20px;
+}
+
+.stock-full {
+  border-radius: 20px;
+  background-color: rgba(0, 106, 0, 0.525);
+}

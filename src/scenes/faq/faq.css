@@ -1,0 +1,245 @@
+.view-risk-zone-main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.heaing-section-risk-zone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 23px;
+  padding: 5px;
+  background-color: rgb(4, 11, 111);
+  color: white;
+  width: 60%;
+  margin-left: 270px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgb(7, 6, 6);
+}
+
+.map-and-the-guied-section {
+  display: flex;
+  padding: 30px;
+  margin-top: 1px;
+  margin-bottom: 50px;
+}
+
+.map-section {
+  border: 1px solid black;
+  height: 600px;
+  width: 75%;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px 5px rgb(1, 1, 21);
+  background-color: rgb(20, 20, 35);
+}
+
+.guied-section {
+  color: white;
+  border-radius: 20px;
+  /* put the chart */
+  height: 600px;
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  box-shadow: 5px 5px 5px 5px rgb(1, 1, 21);
+  background-color: rgb(24, 24, 70);
+}
+
+.guied-section-childs-part {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 20px;
+  height: 9.801%;
+  width: 100%;
+  margin-left: 90px;
+}
+
+.guied-box {
+  height: 40px;
+  width: 40px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.text-guide {
+  font-size: 20px;
+}
+
+.show-an-pieChart-toShow-Data {
+  background-color: rgb(237, 235, 255);
+  height: 51%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#myChart {
+  height: 100%;
+  width: 100%;
+}
+
+.table-section-risk-zone {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zone-guide-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px;
+  font-size: 22px;
+  width: 80%;
+  margin-left: 178px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: rgb(74, 5, 71);
+  color: white;
+  box-shadow: 10px 10px 10px rgb(9, 0, 31);
+}
+
+.send-responce-table-section {
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgba(53, 1, 1, 0.405);
+  color: white;
+  border: none;
+  box-shadow: 5px 5px 5px rgb(14, 0, 0);
+}
+
+.line-seperating-zone {
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+#red {
+  background-color: red;
+  border-radius: 7px;
+  border: none;
+}
+
+#orange {
+  background-color: rgb(255, 166, 0);
+  border-radius: 7px;
+  border: none;
+}
+
+#yellow {
+  background-color: yellow;
+  border-radius: 7px;
+  border: none;
+}
+
+#blue {
+  background-color: blue;
+  border-radius: 7px;
+  border: none;
+}
+
+#green {
+  background-color: green;
+  border-radius: 7px;
+  border: none;
+}
+
+.color-boxes {
+  border: 1px solid black;
+  height: 40px;
+  width: 40px;
+}
+
+.parent-div-th {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.text-in-th {
+  font-size: 20px;
+}
+
+/* Typing Text Result Showcasing  */
+
+.hero-section-subheading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  background-color: rgb(120, 5, 5);
+  color: white;
+  width: 65%;
+  margin-left: 300px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+}
+
+.map-image {
+  width: 100%;
+  height: 100%;
+}
+
+#map {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+#map h2 {
+  font-size: 26px;
+}
+
+#map a {
+  text-decoration: none;
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  font-size: 17px;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.table-section-risk-zone table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.table-section-risk-zone td {
+  font-size: 20px;
+}
+
+.table-section-risk-zone th {
+  background-color: rgb(41, 34, 63);
+  color: white;
+  padding: 5px;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(23, 2, 2);
+}
+
+.table-section-risk-zone table tr td {
+  padding: 10px;
+  color: white;
+  box-shadow: 5px 5px 5px rgb(5, 1, 27);
+}
+
+#map h2 {
+}
